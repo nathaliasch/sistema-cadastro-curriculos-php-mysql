@@ -24,9 +24,7 @@ $id = $_SESSION["id"];
 </head>
 <body>
     <h2 class="my-5">Agradecemos o seu cadastro!</h2>
-    <p>Deseja inserir o seu currículo agora?</p>
     <p>
-        <a href="edit.php?id=<?php echo $id; ?>" class="btn btn-warning">Inserir</a>
         <a href="logout.php" class="btn btn-danger ml-3">Sair da conta</a>
     </p>
 </body>
